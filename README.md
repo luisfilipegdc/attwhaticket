@@ -1,20 +1,5 @@
 # 📝 Log de Versões
 
-## 🚀 Versão 5.5.0 - 12/02/2024 (11:38)
-
-ATENÇÃO: Drive contem vipclub.zip com novas correções e github também:
-Arquivos corrigidos: queues.ts (Envio de texto + img nas campanhas); SendWhatsAppMedia.ts (Envio de Audio em respota rapidas); wbotMessageListener.ts (Correção MENU duplicado).
-
-*Faça a atualização seguindo passo a passo do plwatualizar.sh
-
-FIX: Envio de midia na fila (QueueOptionController.ts, QueueController.ts, wbotMessageListener.ts)
-FIX: ,Contact (Erro de digitação) "Linha 2108: const body = `\u200e ${whatsapp.outOfHoursMessage}`;" (wbotMessageListener.ts)
-
-Correção do envio de fila WHATICKET:
-
-Removemos a verificação baseada em regex que impedia a seleção de filas após uma mensagem inválida. Agora, qualquer entrada numérica válida é aceita, independente da última mensagem enviada pelo bot.
-
-
 ## 🚀 Versão 5.5.0 - 13/11/2024 (13:17)
 
 ✅ Correção ao Redimensionar Área de Ticket: Erro corrigido ao redimensionar.  
